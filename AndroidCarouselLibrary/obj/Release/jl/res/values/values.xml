@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selected">#212121</color>
+    <color name="unselected">#9E9E9E</color>
+    <dimen name="pageMargin">42dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">70dp</dimen>
+    <dimen name="viewpager_next_item_visible">15dp</dimen>
+    <string name="app_name">CarouselView</string>
+    <declare-styleable name="CarouselView">
+
+        <attr format="boolean" name="enableSnapping"/>
+        <attr format="boolean" name="scaleOnScroll"/>
+        <attr format="boolean" name="setAutoPlay"/>
+        <attr format="integer" name="setAutoPlayDelay"/>
+        <attr format="enum" name="carouselOffset">
+            <enum name="start" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr format="enum" name="indicatorAnimationType">
+            <enum name="none" value="0"/>
+            <enum name="fill" value="1"/>
+            <enum name="drop" value="2"/>
+            <enum name="swap" value="3"/>
+            <enum name="worm" value="4"/>
+            <enum name="color" value="5"/>
+            <enum name="scale" value="6"/>
+            <enum name="slide" value="7"/>
+            <enum name="thinWorm" value="8"/>
+            <enum name="scaleDown" value="9"/>
+        </attr>
+        <attr format="integer" name="indicatorRadius"/>
+        <attr format="integer" name="indicatorPadding"/>
+        <attr format="reference" name="indicatorSelectedColor"/>
+        <attr format="reference" name="indicatorUnselectedColor"/>
+        <attr format="integer" name="size"/>
+        <attr format="integer" name="spacing"/>
+        <attr format="reference" name="resource"/>
+    </declare-styleable>
+</resources>

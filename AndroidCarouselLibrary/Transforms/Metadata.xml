@@ -1,0 +1,4 @@
+﻿<metadata>
+  <!-- This line can change class name but I want to change event name insted of this class -->
+ <!-- <attr path="/api/package[@name='com.jama.carouselview']/class[@name='CarouselView']" name="managedName">CarouselViewXamarin</attr> -->
+</metadata>

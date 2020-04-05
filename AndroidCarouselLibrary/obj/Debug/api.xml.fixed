@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.jama.carouselview" jni-name="com/jama/carouselview">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/jama/carouselview/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.jama.carouselview.BuildConfig" synthetic="false" visibility="public"></constructor>
+      <field deprecated="deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.jama.carouselview&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.jama.carouselview&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CarouselOffset" static="false" visibility="" jni-signature="Lcom/jama/carouselview/CarouselOffset;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CarouselOffset.1" static="false" visibility="" jni-signature="Lcom/jama/carouselview/CarouselOffset$1;">
+      <implements name="android.view.ViewTreeObserver.OnGlobalLayoutListener" name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onGlobalLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CarouselScrollListener" static="false" visibility="public" jni-signature="Lcom/jama/carouselview/CarouselScrollListener;"></interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" jni-extends="Landroid/widget/FrameLayout;" final="false" name="CarouselView" static="false" visibility="public" jni-signature="Lcom/jama/carouselview/CarouselView;">
+      <constructor deprecated="not deprecated" final="false" name="CarouselView" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.jama.carouselview.CarouselView" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CarouselView" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" bridge="false" static="false" type="com.jama.carouselview.CarouselView" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="enableSnapping" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="enable" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAutoPlay" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAutoPlayDelay" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCarouselOffset" jni-signature="()Lcom/jama/carouselview/enums/OffsetType;" bridge="false" native="false" return="com.jama.carouselview.enums.OffsetType" jni-return="Lcom/jama/carouselview/enums/OffsetType;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCarouselScrollListener" jni-signature="()Lcom/jama/carouselview/CarouselScrollListener;" bridge="false" native="false" return="com.jama.carouselview.CarouselScrollListener" jni-return="Lcom/jama/carouselview/CarouselScrollListener;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCarouselViewListener" jni-signature="()Lcom/jama/carouselview/CarouselViewListener;" bridge="false" native="false" return="com.jama.carouselview.CarouselViewListener" jni-return="Lcom/jama/carouselview/CarouselViewListener;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentItem" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorAnimationType" jni-signature="()Lcom/jama/carouselview/enums/IndicatorAnimationType;" bridge="false" native="false" return="com.jama.carouselview.enums.IndicatorAnimationType" jni-return="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorPadding" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorRadius" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorSelectedColor" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorUnselectedColor" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResource" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getScaleOnScroll" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSize" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSpacing" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideIndicator" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="hide" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAutoPlay" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="enableAutoPlay" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAutoPlayDelay" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="autoPlayDelay" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCarouselOffset" jni-signature="(Lcom/jama/carouselview/enums/OffsetType;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offsetType" type="com.jama.carouselview.enums.OffsetType" jni-type="Lcom/jama/carouselview/enums/OffsetType;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCarouselScrollListener" jni-signature="(Lcom/jama/carouselview/CarouselScrollListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="carouselScrollListener" type="com.jama.carouselview.CarouselScrollListener" jni-type="Lcom/jama/carouselview/CarouselScrollListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCarouselViewListener" jni-signature="(Lcom/jama/carouselview/CarouselViewListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="carouselViewListener" type="com.jama.carouselview.CarouselViewListener" jni-type="Lcom/jama/carouselview/CarouselViewListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="item" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorAnimationType" jni-signature="(Lcom/jama/carouselview/enums/IndicatorAnimationType;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="indicatorAnimationType" type="com.jama.carouselview.enums.IndicatorAnimationType" jni-type="Lcom/jama/carouselview/enums/IndicatorAnimationType;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorPadding" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="padding" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorRadius" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="radius" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorSelectedColor" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorUnselectedColor" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setResource" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resource" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setScaleOnScroll" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="scaleOnScroll" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSize" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="size" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSpacing" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="spacing" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CarouselView.2" static="false" visibility="" jni-signature="Lcom/jama/carouselview/CarouselView$2;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CarouselView.3" static="true" visibility="" jni-signature="Lcom/jama/carouselview/CarouselView$3;"></class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CarouselViewListener" static="false" visibility="public" jni-signature="Lcom/jama/carouselview/CarouselViewListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onBindView" jni-signature="(Landroid/view/View;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.jama.carouselview.enums" jni-name="com/jama/carouselview/enums">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.jama.carouselview.enums.IndicatorAnimationType&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="IndicatorAnimationType" static="false" visibility="public" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/jama/carouselview/enums/IndicatorAnimationType;" bridge="false" native="false" return="com.jama.carouselview.enums.IndicatorAnimationType" jni-return="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/jama/carouselview/enums/IndicatorAnimationType;" bridge="false" native="false" return="com.jama.carouselview.enums.IndicatorAnimationType[]" jni-return="[Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="COLOR" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DROP" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FILL" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="NONE" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SCALE" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SCALE_DOWN" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SLIDE" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SWAP" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="THIN_WORM" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="WORM" jni-signature="Lcom/jama/carouselview/enums/IndicatorAnimationType;" static="true" transient="false" type="com.jama.carouselview.enums.IndicatorAnimationType" type-generic-aware="com.jama.carouselview.enums.IndicatorAnimationType" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.jama.carouselview.enums.OffsetType&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="OffsetType" static="false" visibility="public" jni-signature="Lcom/jama/carouselview/enums/OffsetType;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/jama/carouselview/enums/OffsetType;" bridge="false" native="false" return="com.jama.carouselview.enums.OffsetType" jni-return="Lcom/jama/carouselview/enums/OffsetType;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/jama/carouselview/enums/OffsetType;" bridge="false" native="false" return="com.jama.carouselview.enums.OffsetType[]" jni-return="[Lcom/jama/carouselview/enums/OffsetType;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="CENTER" jni-signature="Lcom/jama/carouselview/enums/OffsetType;" static="true" transient="false" type="com.jama.carouselview.enums.OffsetType" type-generic-aware="com.jama.carouselview.enums.OffsetType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="START" jni-signature="Lcom/jama/carouselview/enums/OffsetType;" static="true" transient="false" type="com.jama.carouselview.enums.OffsetType" type-generic-aware="com.jama.carouselview.enums.OffsetType" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+</api>

@@ -1,0 +1,7 @@
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\obj\Debug\AndroidCarouselLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\obj\Debug\AndroidCarouselLibrary.csprojAssemblyReference.cache
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\bin\Debug\AndroidCarouselLibrary.dll
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\bin\Debug\AndroidCarouselLibrary.pdb
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\obj\Debug\AndroidCarouselLibrary.dll
+C:\Users\Swechcha\source\repos\AndroidCarouselLibrary\AndroidCarouselLibrary\obj\Debug\AndroidCarouselLibrary.pdb
